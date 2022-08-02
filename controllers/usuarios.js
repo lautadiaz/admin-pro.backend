@@ -89,7 +89,7 @@ const actualizarUsuario = async ( req, res = response) => {
             return  res.status(404).json({
                     ok: false,
                     msg: 'No existe un usuario con ese id'
-                });
+            });
         }
 
         // Actualizaciones
